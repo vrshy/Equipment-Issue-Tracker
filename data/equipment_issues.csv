@@ -1,0 +1,11 @@
+Equipment,Location,Issue Type,Priority,Description,Reported By,Status,Date Reported
+Inverter 2,Plant 1,Electrical,High,Output voltage dropping under load,Arun,New,2026-10-20
+Conveyor Motor 4,Bay 3,Mechanical,Medium,Unusual vibration at startup,Priya,In Review,2026-10-21
+Battery Charger A,Test Lab,Electrical,Critical,Overheating during charge cycle,Karthik,New,2026-10-22
+Panel Board 7,Plant 2,Safety,High,Loose earthing connection,Divya,Approved,2026-10-22
+Cooling Fan 3,Bay 1,Mechanical,Low,Noisy bearing,Arun,Closed,2026-10-23
+PLC Cabinet,Plant 1,Electrical,Medium,Intermittent communication fault,Meena,In Review,2026-10-24
+Air Compressor,Utility Room,Mechanical,High,Pressure not reaching setpoint,Karthik,New,2026-10-25
+Emergency Light,Corridor B,Safety,Medium,Battery backup not holding,Priya,Rejected,2026-10-26
+Welding Machine 2,Fabrication,Electrical,Critical,Tripping the main breaker,Divya,New,2026-10-27
+HVAC Unit,Control Room,Other,Low,Thermostat reading is off,Meena,Closed,2026-10-28
