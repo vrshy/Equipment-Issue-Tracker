@@ -34,6 +34,11 @@ A small end-to-end Power Platform project: equipment issues are stored in Datave
 **Flow run history (test succeeded)**
 ![Run history](screenshots/07_run_history.png)
 
+### Power BI Service
+
+**Report published to Power BI Service**
+![Power BI Service](screenshots/08_power_bi_service.png)
+
 ---
 
 ## What each part does
@@ -123,7 +128,7 @@ equipment-issue-tracker-powerplatform/
 - **Sample data only.** The 11 issues were written for this project.
 - **The flow is triggered manually.** It does not read the Dataverse table. Triggering automatically when a row is added needs the Dataverse connector, which requires a Power Automate Premium licence that my account does not have.
 - **The approval request goes to my own account.** It shows the approval step working, and it is not a full approval process with a supervisor.
-- **Not published to Power BI Service.** There is no scheduled refresh or row-level security.
+- **Published to Power BI Service, but without scheduled refresh or row-level security.** Both are still to do.
 - **Date Reported is not used in any chart.** In the imported rows the dates shifted by one day during import, so I left date-based charts out.
 
 ---
@@ -132,7 +137,7 @@ equipment-issue-tracker-powerplatform/
 
 - Move the data to a source that lets the flow trigger on a new row.
 - Send the approval to a separate approver and email the decision to the reporter.
-- Publish the report to Power BI Service with scheduled refresh.
+- Set up scheduled refresh in Power BI Service and add row-level security.
 - Fix the date shift on import and add a trend chart.
 
 ---
